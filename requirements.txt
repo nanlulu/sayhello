@@ -12,6 +12,7 @@ sqlalchemy==1.2.10
 werkzeug==0.14.1
 wtforms==2.2.1
 gunicorn
+psycopg2
 # dev
 argh==0.26.2
 faker==0.8.17
