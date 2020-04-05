@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{% block title %}Where To Buy Toilet Paper{% endblock %}</title>
+    <title>{% block title %}Where To Buy Toilet Paper?{% endblock %}</title>
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
@@ -12,7 +12,7 @@
 <main class="container">
     <header>
         <h1 class="text-center display-4">
-            <a href="{{ url_for('index') }}" class="text-success"><strong>Share you bought the last roll of toilet paper!</strong></a>
+            <a href="{{ url_for('index') }}" class="text-success"><strong>Share where you bought the last roll of toilet paper!</strong></a>
         </h1>
     </header>
     {% for message in get_flashed_messages() %}
