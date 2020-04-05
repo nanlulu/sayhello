@@ -12,7 +12,7 @@
 <main class="container">
     <header>
         <h1 class="text-center display-4">
-            <a href="{{ url_for('index') }}" class="text-success"><strong>Share where did you buy your last roll of toilet paper!</strong></a>
+            <a href="{{ url_for('index') }}" class="text-success"><strong>Share you bought the last roll of toilet paper!</strong></a>
         </h1>
     </header>
     {% for message in get_flashed_messages() %}
@@ -24,7 +24,7 @@
     {% block content %}{% endblock %}
     <footer class="text-center">
         {% block footer %}
-            <small> &copy; 2020 <a href="https://medium.com/@nanlulu" title="Written by nanlulu">nanlulu</a> /
+            <small> &copy; 2020 <a href="https://medium.com/@nanlulu" title="Written by nanlulu">nanlulu</a>
             </small>
             <p><a id="bottom" href="#" title="Go Top">&uarr;</a></p>
         {% endblock %}
